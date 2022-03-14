@@ -1,0 +1,41 @@
+@import "~bootstrap/scss/bootstrap";
+
+.Header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid aqua;
+  height: fit-content;
+  background-color: #282c34;
+  color: aqua;
+  padding: 10px 5px;
+
+  h1 {
+    margin: 0;
+  }
+}
+
+.Main {
+  text-align: center;
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  flex: 1;
+  padding: 50px 0;
+}
+
+/* Now set the height of your Footer equal to the padding that you left for it in your #root.  To make it stay at the bottom, you will set it to be absolutely positioned.  If Main grows larger, your Footer will move down to remain at the bottom of the page. */
+.Footer {
+  height: 20px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

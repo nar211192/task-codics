@@ -1,0 +1,21 @@
+.to_do_form {
+
+
+  form {
+
+    div {
+      margin-bottom: 15px;
+
+      textarea {
+        max-height: 100px;
+        min-height: 100px;
+      }
+    }
+
+    .btn + .btn {
+      margin-left: 10px;
+    }
+  }
+
+
+}
